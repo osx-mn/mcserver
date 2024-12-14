@@ -1,0 +1,47 @@
+@import url("Winter-Minie.css");
+
+body{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #242424;
+}
+
+.winter{
+  font-family: winter-minie;
+  font-size: 80px;
+  color: white;
+}
+
+#root{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;  
+}
+
+button {
+  padding: 17px 40px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #01d628;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  box-shadow: #00931b 0px 10px 0px 0px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: #009f0e 0px 7px 0px 0px;
+}
+
+button:active {
+  background-color: #006112;
+  /*50, 168, 80*/
+  box-shadow: #00430c 0px 0px 0px 0px;
+  transform: translateY(5px);
+  transition: 200ms;
+}
