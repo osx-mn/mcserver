@@ -10,7 +10,6 @@ body{
 
 .winter{
   font-family: winter-minie;
-  font-size: 80px;
   color: white;
 }
 
@@ -44,4 +43,9 @@ button:active {
   box-shadow: #00430c 0px 0px 0px 0px;
   transform: translateY(5px);
   transition: 200ms;
+}
+
+.fondo{
+  background-repeat: no-repeat;
+  background-size: cover;
 }
