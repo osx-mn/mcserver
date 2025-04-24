@@ -4,9 +4,12 @@ import Image1 from './assets/image1.png'
 import Image2 from './assets/image2.png'
 import Image3 from './assets/image3.png'
 import Image4 from './assets/image4.png'
+import Image5 from './assets/image5.png'
+import Image6 from './assets/image6.png'
+import Image7 from './assets/image7.png'
 
 const Miembros= ["Kiritokun009", "MadaB20", "Mxrsyi", "srOxmans"]
-const images= [Image1, Image2, Image3, Image4]
+const images= [Image1, Image2, Image3, Image4, Image5, Image6, Image7]
 
 const animationDuration= 10000;
 
